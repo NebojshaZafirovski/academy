@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center; margin-top: 50px;">
+        <div style="border: 2px solid #000; padding: 10px; width: 250px;">
+            <div id="calculator-display" style="background-color: #000; color: #fff; text-align: right; padding: 20px; font-size: 28px;">0</div>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 10px;">
+                <button id="clear-button" class="btn-operator" style="padding: 20px; font-size: 20px; background-color: #e0e0e0;">C</button>
+                <button class="btn-operator" style="padding: 20px; font-size: 20px; background-color: #e0e0e0;">←</button>
+                <button class="btn-operator" style="padding: 20px; font-size: 20px; background-color: #f7a76c;">/</button>
+                <button class="btn-operator" style="padding: 20px; font-size: 20px; background-color: #f7a76c;">*</button>
+
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">7</button>
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">8</button>
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">9</button>
+                <button class="btn-operator" style="padding: 20px; font-size: 20px; background-color: #f7a76c;">-</button>
+
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">4</button>
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">5</button>
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">6</button>
+                <button class="btn-operator" style="padding: 20px; font-size: 20px; background-color: #f7a76c;">+</button>
+
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">1</button>
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">2</button>
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">3</button>
+                <button id="equals-button" style="grid-row: span 2; padding: 20px; font-size: 20px; background-color: #f68b3c;">=</button>
+
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">0</button>
+                <button class="btn-number" style="padding: 20px; font-size: 20px;">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
