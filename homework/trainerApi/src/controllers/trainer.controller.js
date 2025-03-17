@@ -65,4 +65,4 @@ export default class TrainerController {
             res.status(500).json({ error: error.message });
         }
     }
-}
+};

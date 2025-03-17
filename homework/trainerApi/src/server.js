@@ -14,3 +14,4 @@ app.use('/api/trainers', trainerRoutes);
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
